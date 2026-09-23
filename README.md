@@ -1,6 +1,6 @@
 # ATM Security & Transaction Platform
 
-SIT314 \u2013 Distinction Project
+SIT314 Distinction Project
 
 ## Current status (Week 5)
 
