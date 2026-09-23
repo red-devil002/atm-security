@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.6.0",
+    "mqtt": "^5.15.2",
+    "pg": "^8.23.0"
+  },
+  "name": "atm-security",
+  "version": "1.0.0",
+  "description": "SIT314 ATM security & transaction platform: IoT risk-scoring service with auto-scaling on AWS",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "cd analysis-service && node --test",
+    "start": "cd analysis-service && node index.js",
+    "report": "node reports/daily-report.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-devil002/atm-security.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/red-devil002/atm-security/issues"
+  },
+  "homepage": "https://github.com/red-devil002/atm-security#readme"
+}

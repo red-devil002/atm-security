@@ -1,0 +1,22 @@
+# ---- Secrets: never commit ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- Private docs (only the problem statement is public) ----
+docs/*
+!docs/problem_statement.md
+
+# ---- Dependencies ----
+node_modules/
+
+# ---- Generated output ----
+reports/output/
+*.log
+
+# ---- OS / editor ----
+.DS_Store
+.vscode/
+.idea/
